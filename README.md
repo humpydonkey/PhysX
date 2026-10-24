@@ -6,4 +6,6 @@ This branch only holds files that the issue and the pull request link to. It has
 - `pr585-before-after-still.png`: frame at t = 4.50 s. Stock still rocks. The fix is at rest.
 - `pr585-before-after-still-settled.png`: frame at t = 3.00 s.
 
+The captions say that the stock run is still rocking at 10 s and that 0 of 5 start tilts settled within 10 s. A note at the bottom of each frame points to the "Longer runs" section of issue #584 (600 s runs: stock settles in 2 of 5 tilts, the fix in 5 of 5).
+
 The scene is the program `rocking_mesh_plane.cpp` of issue #584. Poses and contact points in the video are real program output. Colours, markers and the slow motion are added.
